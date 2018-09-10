@@ -1,7 +1,6 @@
 def square_array(array)
   sqrt = Array.new
   array.each do |num|
-    array.map ** 2
-    array[0] += 1
+    array[0] ** 2
   end
 end
