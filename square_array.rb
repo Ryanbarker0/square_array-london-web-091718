@@ -1,7 +1,6 @@
 def square_array(array)
   sqrt = Array.new
-  array.each do |squared|
-    Math.square_array(array[0])
-    array[0] += 1
+  array.each do |num|
+    self.map { |num| num ** 2 }
   end
 end
