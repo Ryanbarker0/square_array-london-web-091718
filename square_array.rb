@@ -4,4 +4,5 @@ def square_array(array)
     array[0].sqrt
     sqrt.push(array[0])
     array[0] += 1
+  end
 end
